@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Header from '../Header'
+import AddBlabber from '../AddBlabber'
 
 import './style.css'
 
@@ -10,7 +11,7 @@ class App extends React.Component {
       return (
       <div className="container">
         <Header />
-        APP GOES HERE!
+        <AddBlabber />
         </div>
         )
     }
